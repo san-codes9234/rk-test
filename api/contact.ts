@@ -55,7 +55,7 @@ export default async function handler(req: any, res: any) {
     // 6. Send Emails (Admin Notification + Visitor Acknowledgement)
     const adminEmail = resend.emails.send({
       from: 'R.K. Erectors <onboarding@resend.dev>', // Must be a verified domain for production
-      to: 'choudharysankalp530@gmail.com',
+      to: '23053359@kiit.ac.in',
       replyTo: email,
       subject: `New Contact Inquiry from ${name} - ${company || 'No Company'}`,
       html: `
