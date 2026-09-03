@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rk-test-eight.vercel.app/sitemap.xml
