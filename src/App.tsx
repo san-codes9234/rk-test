@@ -42,7 +42,12 @@ const LoadingScreen = ({ progress }: { progress: number }) => (
     }}
   >
     <div className="loader-content flex flex-col items-center">
-      <div className="text-4xl md:text-5xl font-bold text-gradient mb-3 tracking-wider drop-shadow-lg">R.K. ERECTORS</div>
+      <img
+        src="/logo/LOGO.png"
+        alt="R.K. Erectors Logo"
+        className="h-16 md:h-20 w-auto object-contain mb-4 drop-shadow-lg"
+      />
+      <div className="text-4xl md:text-5xl font-bold font-brand text-gradient mb-3 tracking-wide drop-shadow-lg">R.K. Erectors</div>
       <div className="text-xs md:text-sm text-white/40 tracking-[0.4em] uppercase mb-12 font-medium">Engineering Excellence</div>
 
       {/* Premium thin progress bar */}
@@ -111,7 +116,14 @@ const Navigation = ({ isVisible = true }: { isVisible?: boolean }) => {
       transition={{ delay: 0.5, duration: 0.8 }}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        <div className="text-xl font-bold text-gradient">R.K. ERECTORS</div>
+        <a href="#" className="flex items-center gap-3 group focus:outline-none" aria-label="R.K. Erectors Home">
+          <img
+            src="/logo/LOGO.png"
+            alt="R.K. Erectors Logo"
+            className="h-8 md:h-9 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+          />
+          <span className="text-xl md:text-2xl font-bold font-brand text-gradient tracking-tight">R.K. Erectors</span>
+        </a>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8">
@@ -392,8 +404,8 @@ const CinematicHeroSection = ({
           className="absolute max-w-5xl transition-all duration-100 ease-out flex flex-col items-center justify-center"
           style={{ opacity: 0, transform: 'scale(0.96)' }}
         >
-          <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold tracking-tight mb-6 text-gradient drop-shadow-2xl">
-            R.K. ERECTORS
+          <h1 className="text-5xl md:text-7xl lg:text-9xl font-bold font-brand tracking-tight mb-6 text-gradient drop-shadow-2xl">
+            R.K. Erectors
           </h1>
           <p className="text-xl md:text-3xl text-white font-medium tracking-[0.2em] uppercase drop-shadow-lg">
             Engineering Vision Into Reality

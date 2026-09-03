@@ -31,6 +31,7 @@ export default {
       fontFamily: {
         'display': ['Inter', 'system-ui', 'sans-serif'],
         'body': ['Inter', 'system-ui', 'sans-serif'],
+        'brand': ['"Times New Roman"', 'Times', 'Baskerville', 'Georgia', 'serif'],
       },
       animation: {
         'float': 'float 6s ease-in-out infinite',

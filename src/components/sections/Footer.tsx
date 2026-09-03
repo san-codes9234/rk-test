@@ -7,7 +7,16 @@ export const Footer = () => (
     
     <div className="max-w-7xl mx-auto px-6 relative z-10">
       <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-        <div className="text-2xl font-bold text-gradient drop-shadow-md">R.K. ERECTORS</div>
+        <div className="flex items-center gap-3">
+          <img
+            src="/logo/LOGO.png"
+            alt="R.K. Erectors Logo"
+            className="h-8 md:h-9 w-auto object-contain"
+          />
+          <span className="text-2xl font-bold font-brand text-gradient drop-shadow-md">
+            R.K. Erectors
+          </span>
+        </div>
         <p className="text-white/40 text-sm font-light tracking-wide text-center md:text-left">
           © {new Date().getFullYear()} R.K. Erectors. All rights reserved. Engineering Vision Into Reality.
         </p>
