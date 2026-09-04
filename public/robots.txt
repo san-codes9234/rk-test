@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rk-test-eight.vercel.app/sitemap.xml
+Sitemap: https://rkerectors.dpdns.org/sitemap.xml
